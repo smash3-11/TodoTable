@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+.promo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0 30px 0;
+}
+.promo p {
+    padding: 5px 0 10px 0;
+    font-size: 20px;
+    /* color: gray; */
+}
+.promo input {
+    height: 40px;
+    width: 236px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 18px;
+}
+.promo input:active {
+    border: 1px solid blue;
+}
+
+.promo .btn  {
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: rgb(250, 250, 255);
+    background: blue;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:whitesmoke;
+}
+.btn-action {
+    width: 35px;
+    height: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+    margin-left: 5px;
+
+}
+.btn-action:first-child:hover {
+    border: 1px solid rgb(4, 246, 4);
+}
+.btn-action:last-child:hover {
+    border: 1px solid red;
+}
